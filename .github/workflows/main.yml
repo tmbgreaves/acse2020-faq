@@ -23,3 +23,5 @@ jobs:
         uses: nosborn/github-action-markdown-cli@v1.1.1
         with:
           files: .
+          config_file: ".markdownlint.yml"
+          ignore_files: "examples/ignore/*"
